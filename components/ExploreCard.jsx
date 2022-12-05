@@ -1,23 +1,24 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-import styles from '../styles';
-import { fadeIn } from '../utils/motion';
+import styles from "../styles";
+import { fadeIn } from "../utils/motion";
 
 const ExploreCard = ({
   id,
   imgUrl,
   title,
+  link,
   index,
   active,
   handleClick,
   desc,
 }) => (
   <motion.div
-    variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
+    variants={fadeIn("right", "spring", index * 0.5, 0.75)}
     className={`relative ${
-      active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
+      active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
     } flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
@@ -35,7 +36,7 @@ const ExploreCard = ({
         <div
           className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
         >
-          <a href="https://github.com/theLampai">
+          <a href={link}>
             <img
               src="/headset.svg"
               alt="headset"

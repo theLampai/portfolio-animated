@@ -4,35 +4,35 @@ export const exploreWorlds = [
     imgUrl: "/planet-01.png",
     title: "Gym Advisor",
     desc: "Gym Advisor by Lampai is web application that helps you find exercises for target muscle and by equipment. Every exercise has multiple videos as example done by professionals.",
-    link:"#"
+    link: "https://github.com/theLampai/Gym-Advisor",
   },
   {
     id: "world-2",
     imgUrl: "/planet-02.png",
     title: "Admin Dashboard",
     desc: "Admin dashboard with many features like theme mode and colors, calendar, kanban, editor and color picker apps. It has all kind of charts, and data tables.",
-    link:"#"
+    link: "https://github.com/theLampai/admin-dashboard",
   },
   {
     id: "world-3",
     imgUrl: "/planet-03.png",
     title: "Business Website",
     desc: "Business website for lawyer company. About, Our Team, Contact, Map/Location. You can find it on: advsaloski.com ",
-    link:"https://advsaloski.com"
+    link: "https://advsaloski.com",
   },
   {
     id: "world-4",
     imgUrl: "/planet-04.png",
     title: "Web 3.0 Trading",
     desc: "Web app, blokchain, web3.0, you can trade ethereum using MetaMask wallet and track your transactions with features like message, time and date, and keyword(gif).",
-    link:"#"
+    link: "https://github.com/theLampai/web3.0",
   },
   {
     id: "world-5",
     imgUrl: "/planet-05.png",
     title: "E-Shop",
     desc: "Full resposive and modern e-shop front-end webiste in ReactJS. Find clothes and shoes by size, add to cart, payment.",
-    link:"#"
+    link: "https://github.com/theLampai/e-shop",
   },
 ];
 
